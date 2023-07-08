@@ -68,7 +68,7 @@
     --header-logo-link-left: 0;
   
     /** FOOTER **/
-    --footer-padding: 5rem 0 1rem;
+    --footer-padding: 5rem 0 1rm;
   
     /** NAVBAR **/
     --nav-item-font-family: var(--font-family-headings);

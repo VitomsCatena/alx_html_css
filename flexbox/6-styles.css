@@ -385,7 +385,7 @@ html {
   
   /* Navbar
         ============================= */
- /* Navbar
+/* Navbar
 ============================= */
 .nav {
   margin: 0;
@@ -439,18 +439,17 @@ html {
   display: flex;
 }
 
-.nav-item + .nav-item {
-  margin: 0 0 0 2rem;
+.nav .nav-item + .nav-item {
+  margin-left: 2rem;
 }
 
 :root {
   --nav-item-margin: 0 0 0 2rem;
 }
 
-.nav .nav-item:not(:first-child) {
-  margin-left: var(--nav-item-margin);
+.nav .nav-item {
+  margin: var(--nav-item-margin);
 }
-
 
   
   /* Header

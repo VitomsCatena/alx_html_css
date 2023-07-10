@@ -42,12 +42,14 @@ color: white;
  word-wrap: break-word
 }
 ---
-// ©smileschool 2020
+/* ©smileschool 2020 */
+.smile20{
 color: white;
  font-size: 12px;
  font-family: Source Sans Pro;
  font-weight: 400;
  word-wrap: break-word
+}
 ---
 // F.A.Q.
 color: #071629;

@@ -285,75 +285,87 @@ color: #C271FF;
  word-wrap: break-word;
 }
 ---
-// Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.
+
+.text{
 color: rgba(7, 22, 41, 0.50);
  font-size: 14px;
  font-family: Source Sans Pro;
  font-weight: 400;
  line-height: 24px;
- word-wrap: break-word
+ word-wrap: break-word;
+}
 ---
-// Diagonal Smile
+.smile{
 color: #071629;
  font-size: 16px;
  font-family: Source Sans Pro;
  font-weight: 700;
- word-wrap: break-word
+ word-wrap: break-word;
+}
 ---
-// Phillip Massey
+/* Phillip Massey */
+.phillip{
 color: #C271FF;
  font-size: 14px;
  font-family: Source Sans Pro;
  font-weight: 600;
  line-height: 27px;
- word-wrap: break-word
+ word-wrap: break-word;
+}
 ---
-// 8 min
+#time{
 color: #C271FF;
  font-size: 14px;
  font-family: Source Sans Pro;
  font-weight: 600;
  line-height: 27px;
- word-wrap: break-word
+ word-wrap: break-word;
+}
 ---
-// Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.
+.text{
 color: rgba(7, 22, 41, 0.50);
  font-size: 14px;
  font-family: Source Sans Pro;
  font-weight: 400;
  line-height: 24px;
- word-wrap: break-word
+ word-wrap: break-word;
+}
 ---
-// Sad Smile
+/* Sad Smile */
+.smile{
 color: #071629;
  font-size: 16px;
  font-family: Source Sans Pro;
  font-weight: 700;
- word-wrap: break-word
+ word-wrap: break-word;
+}
 ---
-// Phillip Massey
+.phillip{
 color: #C271FF;
  font-size: 14px;
  font-family: Source Sans Pro;
  font-weight: 600;
  line-height: 27px;
- word-wrap: break-word
+ word-wrap: break-word;
+}
 ---
-// 8 min
+#time{
 color: #C271FF;
  font-size: 14px;
  font-family: Source Sans Pro;
  font-weight: 600;
  line-height: 27px;
- word-wrap: break-word
+ word-wrap: break-word;
+}
 ---
-// Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.
+.text{
 color: rgba(7, 22, 41, 0.50);
  font-size: 14px;
  font-family: Source Sans Pro;
  font-weight: 400;
  line-height: 24px;
- word-wrap: break-word
+ word-wrap: break-word;
+}
 ---
 // Natural Smile
 color: #071629;

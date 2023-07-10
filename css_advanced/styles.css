@@ -33,12 +33,14 @@ color: white;
  word-wrap: break-word
 }
 
-// SmileSchool
+/*SmileSchool*/
+.smile{
 color: white;
  font-size: 18px;
  font-family: Coiny;
  font-weight: 400;
  word-wrap: break-word
+}
 ---
 // ©smileschool 2020
 color: white;

@@ -6,13 +6,18 @@ color: white;
  word-wrap: break-word
 ---
 // PRICING
+
+.pricing{
 color: white;
  font-size: 12px;
  font-family: Source Sans Pro;
  font-weight: 700;
  word-wrap: break-word
+}
+
 ---
-// LOGIN
+/* LOGIN */
+
 .login{
 color: white;
  font-size: 12px;

@@ -51,12 +51,16 @@ color: white;
  word-wrap: break-word
 }
 ---
-// F.A.Q.
+
+/* F.A.Q. */
+.FAQ{
 color: #071629;
  font-size: 60px;
  font-family: Source Sans Pro;
  font-weight: 300;
  word-wrap: break-word
+
+}
 ---
 // How does this work?
 color: #071629;

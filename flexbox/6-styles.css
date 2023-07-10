@@ -385,7 +385,9 @@ html {
   
   /* Navbar
         ============================= */
-        .nav {
+ /* Navbar
+============================= */
+.nav {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -395,7 +397,7 @@ html {
 
 
 .nav-item + .nav-item {
-  margin: 0 0 0 2rem;
+  margin: 0;
 }
 
 .nav .nav-item {
@@ -404,33 +406,51 @@ html {
   font-size: var(--nav-item-font-size);
   letter-spacing: var(--nav-item-letter-spacing);
 }
-  
-  .nav .nav-link {
-    display: block;
-    padding: 0.5rem 0;
-    position: relative;
-  }
-  
-  .nav .nav-link:hover {
-    color: var(--nav-item-link-hover);
-    text-decoration: none;
-  }
-  
-  .nav .nav-link::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: var(--color-white);
-    width: 0;
-    height: 0.2rem;
-    transition: var(--transition-duration) var(--transition-cubic-bezier);
-  }
-  
-  .nav .nav-item:hover .nav-link::before {
-    background-color: var(--color-primary);
-    width: 100%;
-  }
+
+.nav .nav-link {
+  display: block;
+  padding: 0.5rem 0;
+  position: relative;
+}
+
+.nav .nav-link:hover {
+  color: var(--nav-item-link-hover);
+  text-decoration: none;
+}
+
+.nav .nav-link::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 0;
+  height: 0.2rem;
+  transition: var(--transition-duration) var(--transition-cubic-bezier);
+}
+
+.nav .nav-item:hover .nav-link::before {
+  background-color: var(--color-primary);
+  width: 100%;
+}
+
+/* Updated code */
+.nav {
+  display: flex;
+}
+
+.nav-item + .nav-item {
+  margin: 0 0 0 2rem;
+}
+
+:root {
+  --nav-item-margin: 0 0 0 2rem;
+}
+
+.nav .nav-item {
+  margin: var(--nav-item-margin);
+}
+
   
   /* Header
         ============================= */

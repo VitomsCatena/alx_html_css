@@ -230,49 +230,60 @@ color: white;
  word-wrap: break-word;
 }
 ---
-// Most
+/*Most */
+.most{
 color: #071629;
  font-size: 32px;
  font-family: Source Sans Pro;
  font-weight: 300;
- word-wrap: break-word
+ word-wrap: break-word;
+}
 ---
-//  popular
+/* popular */
+.popular{
 color: #C271FF;
  font-size: 32px;
  font-family: Source Sans Pro;
  font-weight: 700;
- word-wrap: break-word
+ word-wrap: break-word;
+}
 ---
-//  
+span{
 color: white;
  font-size: 32px;
  font-family: Source Sans Pro;
  font-weight: 700;
- word-wrap: break-word
+ word-wrap: break-word;
+}
 ---
-// tutorials
+
+.tutorials{
 color: #071629;
  font-size: 32px;
  font-family: Source Sans Pro;
  font-weight: 300;
- word-wrap: break-word
+ word-wrap: break-word;
+}
 ---
-// Phillip Massey
+/* Phillip Massey */
+.phillip{
 color: #C271FF;
  font-size: 14px;
  font-family: Source Sans Pro;
  font-weight: 600;
  line-height: 27px;
- word-wrap: break-word
+ word-wrap: break-word;
+}
 ---
-// 8 min
+/* 8 min */
+#time{
 color: #C271FF;
  font-size: 14px;
  font-family: Source Sans Pro;
  font-weight: 600;
  line-height: 27px;
- word-wrap: break-word
+ word-wrap: break-word;
+}
 ---
 // Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.
 color: rgba(7, 22, 41, 0.50);

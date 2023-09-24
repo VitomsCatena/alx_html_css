@@ -1,13 +1,15 @@
-HTML Forms
+## HTML Forms.
+
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-General
+#### General.
 What HTML forms are
 Examples of HTML form elements and their attributes (eg: input, radio buttons, checkboxes, dropdowns, etc)
 How to implement basic form validation using HTML5 attributes, such as required, minlength, maxlength, pattern, and more.
-Requirements
-General
+#### ~Requirements~
+
+## General.
 Recommended editors: Visual studio code
 All your files should end with a new line
 A README.md file, at the root of the folder of the project is mandatory

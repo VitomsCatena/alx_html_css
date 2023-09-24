@@ -8,7 +8,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 -Examples of HTML form elements and their attributes (eg: input, radio buttons, checkboxes, dropdowns, etc)
 -How to implement basic form validation using HTML5 attributes, such as required, minlength, maxlength, pattern, and more.
 
-#### ---Requirements
+#### ---Requirements---
 
 ## General.
 1. *Recommended editors: Visual studio code*

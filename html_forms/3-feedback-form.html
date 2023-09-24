@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        label, input, select {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Feedback Form</h2>
+        <form id="feedbackForm" action="#" method="post" enctype="multipart/form-data">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required>
+
+            <label>Feedback:</label>
+            <input type="checkbox" id="excellent" name="feedbackOption" value="excellent">
+            <label for="excellent">Excellent</label>
+            
+            <input type="checkbox" id="good" name="feedbackOption" value="good">
+            <label for="good">Good</label>
+
+            <input type="checkbox" id="average" name="feedbackOption" value="average">
+            <label for="average">Average</label>
+
+            <input type="checkbox" id="poor" name="feedbackOption" value="poor">
+            <label for="poor">Poor</label>
+
+            <label for="file">Upload File:</label>
+            <input type="file" id="file" name="file" accept=".pdf,.doc,.docx,.txt" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

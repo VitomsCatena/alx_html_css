@@ -1,4 +1,4 @@
-s is my CSS ADVANCE task am hoping to get a better understanding of CSS and use it  to create impressive websites in the near future.
+This is my CSS ADVANCE task am hoping to get a better understanding of CSS and use it  to create impressive websites in the near future.
 this are the requirements and instructions:
     Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
